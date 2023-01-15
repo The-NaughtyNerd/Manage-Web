@@ -1,0 +1,14 @@
+{
+  "name": "manage",
+  "version": "1.0.0",
+  "description": "A recommended HTML and CSS test from RayTech",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass sass/main.scss css/styles.css -w"
+  },
+  "author": "The-NaughtyNerd",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.57.1"
+  }
+}
