@@ -1,0 +1,21 @@
+.heading {
+  &--primary {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 4.5rem;
+    word-wrap: break-word;
+  }
+
+  &--secondary {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 3rem;
+  }
+}
+
+.paragraph {
+  color: $darkGrayishBlue;
+  font-size: 1.5rem;
+  margin-bottom: 4rem;
+  word-wrap: break-word;
+}
