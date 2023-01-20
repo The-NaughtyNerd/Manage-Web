@@ -5,3 +5,8 @@
 .section-product {
   @include sectionFlex;
 }
+
+.section-reviews {
+  text-align: center;
+  padding: 6rem 8rem;
+}

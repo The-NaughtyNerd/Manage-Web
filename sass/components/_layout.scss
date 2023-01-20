@@ -1,7 +1,3 @@
-.about {
-  margin-right: 2.5rem;
-}
-
 .feature {
   display: flex;
 
@@ -16,5 +12,34 @@
     border-radius: 3rem;
     text-align: center;
     box-shadow: 0 1.5rem 4rem rgba($black, 0.15);
+  }
+}
+
+.reviews {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 0;
+}
+
+.review {
+  background-color: $light-2;
+  padding: 2.5rem;
+
+  &:not(:last-child) {
+    margin-right: 3.5rem;
+  }
+}
+
+.signup {
+  background-color: $orangeDark;
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 0;
+
+  &__text {
+    color: $light-3;
+    font-size: 3.8rem;
+    font-weight: 800;
+    margin-right: 5rem;
   }
 }

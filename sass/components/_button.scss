@@ -17,4 +17,14 @@
       background-color: $light-3;
     }
   }
+
+  &--white {
+    background-color: $light-3;
+    color: $orangeDark;
+
+    &:hover {
+      background-color: $orangeDark;
+      color: $light-3;
+    }
+  }
 }

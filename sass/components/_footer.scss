@@ -1,0 +1,82 @@
+.footer {
+  background-color: $dark;
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 8rem;
+
+  &__links {
+    &:link,
+    &:active {
+      text-decoration: none;
+      color: $light-3;
+      font-size: 1.5rem;
+    }
+
+    & .social {
+      height: 3rem;
+      margin-right: 1rem;
+    }
+  }
+
+  &__navs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    &--justify {
+      justify-content: space-between;
+    }
+
+    & .footer__links {
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__copyright {
+    color: $light-3;
+    font-size: 1.25rem;
+  }
+}
+
+////////////////////////// SEARCHBAR
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__input {
+    font-family: inherit;
+    font-size: 1.5rem;
+    color: $darkGrayishBlue;
+    background-color: $light-3;
+    border: none;
+    padding: 0.7rem 2rem;
+    border-radius: 100px;
+    width: 90%;
+    transition: all 0.2s;
+    margin-right: 2rem;
+  }
+
+  &:focus {
+    outline: none;
+    width: 100%;
+    // background-color: var(--color-grey-light-3);
+  }
+
+  &__btn {
+    background-color: $orangeDark;
+    color: $darkBlue;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 0.7rem 2rem;
+    border-radius: 100px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 1.5rem 4rem rgba($black, 0.15);
+
+    &:hover {
+      background-color: $light-3;
+    }
+  }
+}

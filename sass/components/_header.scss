@@ -1,9 +1,14 @@
 .header {
-  height: 5rem;
+  height: 7rem;
   font-size: 1.8rem;
   font-weight: 600;
-  margin-top: 2rem;
-  // position: fixed;
+  background-color: $light-3;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
 }
 
 .navbar {

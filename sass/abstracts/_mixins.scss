@@ -1,5 +1,6 @@
 @mixin sectionFlex {
   display: flex;
-  justify-content: space-around;
-  padding: 6rem 4rem;
+  justify-content: center;
+  padding: 3rem 8rem;
+  margin-top: 6rem;
 }
