@@ -11,6 +11,11 @@ html {
   font-size: 62.5%;
   line-height: 1.5;
 }
+@media only screen and (max-width: 68.75em) {
+  html {
+    font-size: 50%;
+  }
+}
 
 body {
   box-sizing: border-box;
@@ -39,11 +44,11 @@ body {
 }
 
 .u-margin-right {
-  margin-right: 3.5rem;
+  margin-right: 3rem;
 }
 
 .u-margin-left {
-  margin-left: 3.5rem;
+  margin-left: 4rem;
 }
 
 .btn {
@@ -177,6 +182,23 @@ body {
   transform: translateY(-1rem) scale(1.3);
 }
 
+@media only screen and (max-width: 68.75em) {
+  .info {
+    flex: 2 1 auto;
+  }
+}
+
+@media only screen and (max-width: 61.19em) {
+  .stats {
+    width: 80rem;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .stats {
+    width: 90%;
+  }
+}
+
 .feature {
   display: flex;
 }
@@ -197,6 +219,11 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 5rem 0;
+}
+@media only screen and (max-width: 37.5em) {
+  .reviews {
+    flex-direction: column;
+  }
 }
 
 .review {
@@ -226,6 +253,16 @@ body {
   padding: 3rem 8rem;
   margin-top: 6rem;
 }
+@media only screen and (max-width: 61.19em) {
+  .section-hero {
+    flex-wrap: wrap-reverse;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .section-hero {
+    padding: 3rem 2rem;
+  }
+}
 
 .section-product {
   display: flex;
@@ -233,10 +270,22 @@ body {
   padding: 3rem 8rem;
   margin-top: 6rem;
 }
+@media only screen and (max-width: 61.19em) {
+  .section-product {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 .section-reviews {
   text-align: center;
   padding: 6rem 8rem;
+}
+@media only screen and (max-width: 37.5em) {
+  .section-reviews {
+    flex-direction: column;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

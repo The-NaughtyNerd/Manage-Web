@@ -2,9 +2,21 @@
 $orangeDark: hsl(12, 88%, 59%);
 $orangeLight: hsl(12, 88%, 69%);
 $darkBlue: hsl(228, 39%, 23%);
-$darkGrayishBlue: hsl(227,12%, 61%);
+$darkGrayishBlue: hsl(227, 12%, 61%);
 $black: #000;
 $dark: hsl(233, 12%, 13%);
 $light-1: hsl(12, 88%, 95%);
 $light-2: hsl(13, 100%, 96%);
 $light-3: hsl(0, 0%, 98%);
+
+// BREAKPOINTS
+$bp-largest: 75em; // 1200px
+$bp-large: 68.75em; // 1100px
+$bp-medium: 61.19em; // 979px
+$bp-small: 37.5em; // 600px
+$bp-smallest: 31.25em; // 500px
+
+// Sm-480px
+// md-786px
+// lg-979px
+// xl-1440px
