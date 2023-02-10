@@ -16,7 +16,11 @@
 }
 
 .feature {
-  display: flex;
+  // display: flex;
+
+  &__holder {
+    display: flex;
+  }
 
   &__no {
     background-color: $orangeDark;
@@ -24,14 +28,21 @@
     font-size: 2rem;
     font-weight: 600;
     height: 3.5rem;
-    margin-right: 2rem;
+    margin-right: 1.5rem;
     padding: 0.5rem 3rem;
     border-radius: 3rem;
     text-align: center;
     box-shadow: 0 1.5rem 4rem rgba($black, 0.15);
 
+    width: 14%;
+
     @media only screen and (max-width: $bp-medium) {
     }
+  }
+
+  &__texts {
+    margin-left: 15.3%;
+    width: 85%;
   }
 
   @media only screen and (max-width: $bp-medium) {
