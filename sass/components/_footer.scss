@@ -1,5 +1,7 @@
+@use "../abstracts/variables" as v;
+
 .footer {
-  background-color: $dark;
+  background-color: v.$dark;
   display: flex;
   justify-content: space-between;
   padding: 4rem 8rem;
@@ -8,7 +10,7 @@
     &:link,
     &:active {
       text-decoration: none;
-      color: $light-3;
+      color: v.$light-3;
       font-size: 1.5rem;
     }
 
@@ -33,7 +35,7 @@
   }
 
   &__copyright {
-    color: $light-3;
+    color: v.$light-3;
     font-size: 1.25rem;
   }
 }
@@ -47,8 +49,8 @@
   &__input {
     font-family: inherit;
     font-size: 1.5rem;
-    color: $darkGrayishBlue;
-    background-color: $light-3;
+    color: v.$darkGrayishBlue;
+    background-color: v.$light-3;
     border: none;
     padding: 0.7rem 2rem;
     border-radius: 100px;
@@ -64,8 +66,8 @@
   }
 
   &__btn {
-    background-color: $orangeDark;
-    color: $darkBlue;
+    background-color: v.$orangeDark;
+    color: v.$darkBlue;
     font-weight: 600;
     font-size: 1.5rem;
     padding: 0.7rem 2rem;
@@ -73,10 +75,10 @@
     border: none;
     text-align: center;
     cursor: pointer;
-    box-shadow: 0 1.5rem 4rem rgba($black, 0.15);
+    box-shadow: 0 1.5rem 4rem rgba(v.$black, 0.15);
 
     &:hover {
-      background-color: $light-3;
+      background-color: v.$light-3;
     }
   }
 }

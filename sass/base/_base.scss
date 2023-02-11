@@ -1,3 +1,5 @@
+@use "../abstracts/variables" as v;
+
 *,
 *::after,
 *::before {
@@ -10,14 +12,14 @@ html {
   font-size: 62.5%;
   line-height: 1.5;
 
-  @media only screen and (max-width: $bp-large) {
+  @media only screen and (max-width: v.$bp-large) {
     font-size: 50%;
   }
 }
 
 body {
   box-sizing: border-box;
-  background-color: $light-3;
+  background-color: v.$light-3;
   line-height: inherit;
   font-family: "Open Sans", sans-serif;
 }

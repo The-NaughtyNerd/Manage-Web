@@ -1,3 +1,5 @@
+@use "../abstracts/variables" as v;
+
 .heading {
   &--primary {
     font-size: 3.5rem;
@@ -14,7 +16,7 @@
 }
 
 .paragraph {
-  color: $darkGrayishBlue;
+  color: v.$darkGrayishBlue;
   font-size: 1.5rem;
   margin-bottom: 4rem;
   word-wrap: break-word;
