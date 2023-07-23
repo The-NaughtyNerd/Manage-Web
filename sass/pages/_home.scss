@@ -1,10 +1,22 @@
 @use "../abstracts/variables" as v;
 
+.section {
+  padding: 13rem 7rem;
+  border-top: 1px solid #ddd;
+
+  transition: transform 1s, opacity 1s;
+}
+
 .section-hero {
   display: flex;
+  // justify-content: center;
+  // padding: 3rem 8rem;
+  // margin-top: 6rem;
+
+  align-content: center;
   justify-content: center;
-  padding: 3rem 8rem;
-  margin-top: 6rem;
+
+  align-items: center;
 
   @media only screen and (max-width: v.$bp-medium) {
     // flex-direction: column;
@@ -20,8 +32,8 @@
 .section-product {
   display: flex;
   justify-content: center;
-  padding: 3rem 8rem;
-  margin-top: 6rem;
+  // padding: 3rem 8rem;
+  // margin-top: 6rem;
 
   @media only screen and (max-width: v.$bp-medium) {
     // flex-direction: column;
@@ -33,7 +45,7 @@
 
 .section-reviews {
   text-align: center;
-  padding: 6rem 8rem;
+  // padding: 6rem 8rem;
 
   @media only screen and (max-width: v.$bp-small) {
     flex-direction: column;

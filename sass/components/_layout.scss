@@ -2,7 +2,8 @@
 
 .info {
   @media only screen and (max-width: v.$bp-large) {
-    flex: 2 1 auto;
+    // flex: 2 1 auto;
+    text-align: center;
   }
 }
 
