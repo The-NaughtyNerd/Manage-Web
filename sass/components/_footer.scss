@@ -5,12 +5,17 @@
   display: flex;
   justify-content: space-between;
   padding: 4rem 8rem;
+  width: 100%;
 
   @media only screen and (max-width: v.$bp-medium) {
-    flex-direction: column;
+    flex-direction: column-reverse;
+
+    .footlogo {
+      margin-top: 3rem;
+    }
   }
 
-  &__links {
+  &__link {
     &:link,
     &:active {
       text-decoration: none;
@@ -21,24 +26,51 @@
     & .social {
       height: 3rem;
       margin-right: 1rem;
+
+      @media only screen and (max-width: v.$bp-medium) {
+        // margin-right: 2.5rem;
+      }
     }
   }
 
   &__navs {
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
+
+    @media only screen and (max-width: v.$bp-medium) {
+      align-items: center;
+      flex-direction: column-reverse;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: center;
     align-items: flex-start;
 
     @media only screen and (max-width: v.$bp-medium) {
-      flex-direction: row;
+      margin: 4rem 0;
+      justify-content: space-around;
+    }
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &:not(:last-child) {
+      margin-right: 10rem;
     }
 
-    &--justify {
-      justify-content: space-between;
+    @media only screen and (max-width: v.$bp-medium) {
+      // flex-direction: row;
     }
 
-    & .footer__links {
+    & .footer__link {
       margin-bottom: 1rem;
+      color: v.$light-3;
     }
   }
 

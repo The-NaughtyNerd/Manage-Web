@@ -5,6 +5,11 @@
   border-top: 1px solid #ddd;
 
   transition: transform 1s, opacity 1s;
+
+  &--hidden {
+    opacity: 0;
+    transform: translateY(8rem);
+  }
 }
 
 .section-hero {
@@ -22,10 +27,7 @@
     // flex-direction: column;
     // padding: 3rem 0;
     flex-wrap: wrap-reverse;
-  }
-
-  @media only screen and (max-width: v.$bp-small) {
-    padding: 3rem 2rem;
+    // padding: 3rem 2rem;
   }
 }
 
@@ -36,10 +38,11 @@
   // margin-top: 6rem;
 
   @media only screen and (max-width: v.$bp-medium) {
-    // flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: column;
+    // flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
 }
 

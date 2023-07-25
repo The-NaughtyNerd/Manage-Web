@@ -2,22 +2,27 @@
 
 .heading {
   &--primary {
-    font-size: 3.5rem;
-    font-weight: 800;
-    margin-bottom: 4.5rem;
+    font-size: 4.5rem;
+    font-weight: 1000;
+    margin-bottom: 3.5rem;
     word-wrap: break-word;
+    text-align: center;
   }
 
   &--secondary {
     font-size: 2rem;
     font-weight: 800;
     margin-bottom: 3rem;
+
+    @media only screen and (max-width: v.$bp-medium) {
+      font-size: 1.7rem;
+    }
   }
 }
 
 .paragraph {
   color: v.$darkGrayishBlue;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   margin-bottom: 4rem;
   word-wrap: break-word;
 }
